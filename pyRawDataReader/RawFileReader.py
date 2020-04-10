@@ -132,7 +132,7 @@ class RawFileReader(object):
 
         if not self.source.IsOpen:
             raise IOError(
-                "RAWfile {0} could not be opened, is the file accessible ?".format(
+                "RAWfile '{0}' could not be opened, is the file accessible ?".format(
                     self.filename))
         self.source.SelectInstrument(ThermoFisher.CommonCore.Data.Business.Device.MS, 1)
                     

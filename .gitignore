@@ -12,3 +12,4 @@
 **/__pycache__/*
 **/build/*
 **/dist/*
+**/pyRawDataReader_zwf.egg-info/*

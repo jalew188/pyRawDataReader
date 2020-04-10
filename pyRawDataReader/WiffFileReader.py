@@ -19,7 +19,7 @@ class WiffFileReader(object):
             self.source = WiffFile(self.filename)
         except:
             raise IOError(
-                "Wiff file {0} could not be opened, is the file accessible ?".format(
+                "Wiff file '{0}' could not be opened, is the file accessible ?".format(
                     self.filename))
                     
         self.StartTime = self.GetStartTime()
