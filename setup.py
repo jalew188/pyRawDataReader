@@ -19,8 +19,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.5',
-    data_files=[('lib/site-packages',[
-        "DLLs/WiffFileReader.dll",
+    data_files=[('lib/site-packages',
+        ["DLLs/WiffFileReader.dll",
         "DLLs/SciexToolKit.dll",
         "DLLs/ThermoFisher.CommonCore.Data.dll",
         "DLLs/ThermoFisher.CommonCore.RawFileReader.dll",
@@ -57,5 +57,7 @@ setuptools.setup(
         "DLLs/Clearcore.Licensing.dll",
         "DLLs/Clearcore2.Processing.dll",
         "DLLs/Clearcore2.ProjectUtilities.dll",
-    ])],
+        "DLLs/timsdata.dll",
+        "DLLs/libtimsdata.so",
+        ])],
 )
