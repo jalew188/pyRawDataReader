@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyRawDataReader_zwf", # Replace with your own username
+    name="pyRawMSDataReader_zwf", # Replace with your own username
     version="0.0.1",
     author="Zeng, Wen-Feng",
     author_email="jalew.zwf@qq.com",
@@ -19,6 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.5',
+    install_requires=["pythonnet"],
     data_files=[('lib/site-packages',
         ["DLLs/WiffFileReader.dll",
         "DLLs/SciexToolKit.dll",

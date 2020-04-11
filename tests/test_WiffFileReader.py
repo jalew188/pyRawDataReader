@@ -1,4 +1,4 @@
-from pyRawDataReader.WiffFileReader import WiffFileReader
+from pyRawMSDataReader.WiffFileReader import WiffFileReader
 import sys
 
 scanNumber = 10000

@@ -1,4 +1,4 @@
-from pyRawDataReader.RawFileReader import RawFileReader
+from pyRawMSDataReader.RawFileReader import RawFileReader
 import sys
 
 scanNumber = 10000

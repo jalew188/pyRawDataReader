@@ -1,4 +1,4 @@
-# pyRawDataReader
+# pyRawMSDataReader
 
 ## pyRawFileReader
 

@@ -2,7 +2,7 @@
 python setup.py sdist bdist_wheel
 
 # pip install dist/pyRawDataReader_zwf-0.0.1-py3-none-any.whl
-pip install dist/pyRawDataReader_zwf-0.0.1-py3-none-any.whl --upgrade
+pip install dist/pyRawMSDataReader_zwf-0.0.1-py3-none-any.whl --upgrade
 
 Write-Host "Testing RawFileReader.py"
 python tests/test_RawFileReader.py E:\DIAData\PECAN\20mz\20141010_DIA_20x20mz_500to900.raw
